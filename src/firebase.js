@@ -3,15 +3,16 @@ import "firebase/auth"
 
 const app = firebase.initializeApp(
     {
-        apiKey: "AIzaSyAOpKIlcm_1-1eUZ0a4GAw79uVBYC5DJOc",
-        authDomain: "auth-development-977b8.firebaseapp.com",
-        projectId: "auth-development-977b8",
-        storageBucket: "auth-development-977b8.appspot.com",
-        messagingSenderId: "708034008081",
-        appId: "1:708034008081:web:51a2cde8f6d0adc7750db0",
-        measurementId: "G-22HJMJXS81"
+        apiKey: "AIzaSyD3Zk1w4E702MRnFwkJ2IUkwNCraoGhOgw",
+        authDomain: "react-auth-firebase-5d718.firebaseapp.com",
+        databaseURL:"https://react-auth-firebase-5d718-default-rtdb.firebaseio.com/",
+        projectId: "react-auth-firebase-5d718",
+        storageBucket: "react-auth-firebase-5d718.appspot.com",
+        messagingSenderId: "58006790963",
+        appId: "1:58006790963:web:92d6132875a0791b7b1446",
+        measurementId: "G-F7PV2PCT4W"
     }
-)
+) 
 
 export const auth = app.auth()
 export default app
